@@ -20,6 +20,7 @@ Text labels are to the left of the input field, unless viewed in mobile portrait
 
 Input fields with icons and text use the same 10px padding rules as buttons with icons and text.
 
+
 ##Palettes
 There are three palettes: Action, greyscale, and user collection. Each of those have two secondary palettes: light (for highlights, hover) and dark (for shadows, tapped/down states).
 
@@ -27,4 +28,13 @@ Action is used for buttons, alerts, etc. Light blue is for univeral actions: Sig
 
 Greyscale is our supporting palette.
 
-The user collection palette is for, you guessed, collections. But instead of light/dark palettes, the supporting tones are opacity levels: 80%, 60%, 40%. This is to achieve the layered monotone effect.
+The user collection palette is for, you guessed it, collections. But instead of light/dark palettes, the supporting tones are opacity levels: 80%, 60%, 40%. This is to achieve the layered monotone effect used in user collections.
+
+
+##Typography
+The typeface we use for all of our sites is Fira Sans OT. `h1` and `h2` are used on desktop and tablet only. Any code snippets on the dev hub are displayed in Fira Mono OT.
+
+
+##Grid
+We use a responsive fluid grid system for all of our sites. It scales nicely from 4 columns for mobile (320px) to 16 for desktop (1280px). Columns are 60px wide with a 20 px gutter.
+/*** EXPAND ON THIS LATER ***/
