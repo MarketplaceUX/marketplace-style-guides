@@ -1,0 +1,21 @@
+# Site settings
+name: Templates Test Site
+title: UX Spec Templates Test Site
+email: tsmuse@mozilla.com
+description: "A testbed and example for the UX Spec templates running on Jekyll"
+# these need to be changed for each project
+baseurl: "/Firefox-Marketplace-UXSpecs-Templates" #this is the github project name WITHOUT the trailing /
+url: "https://tsmuse.github.io"  #this the url of the GHPages account your project is hosted at
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
+
+# YAML Frontmatter defaults 
+# currently commented out to not break the testbed. Uncomment when the default spec template is complete
+#defaults:
+#-
+#  scope:
+#    path: '' #left empty for all files 
+#  values:
+#    layout: "spec-default"
