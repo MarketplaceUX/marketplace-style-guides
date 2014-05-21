@@ -23,7 +23,7 @@ Input fields with icons and text use the same 10px padding rules as buttons with
 ##Palettes
 There are three palettes: Action, greyscale, and user collection. Each of those have two secondary palettes: light (for highlights, hover) and dark (for shadows, tapped/down states).
 
-Action is used for buttons, alerts, etc. Light blue is for univeral actions: Sign in/sign up, log out, etc. Blue is for positive or benign interactions: Purchase, contact, etc. Green is for success, red means failure or error. Yellow isn't currently used, but could be brought in for queueing or other "wait" actions.
+Action is used for buttons, alerts, etc. Light blue is for universal actions: Sign in/sign up, log out, etc. Blue is for positive or benign interactions: Purchase, contact, etc. Green is for success, red means failure or error. Yellow isn't currently used, but could be brought in for queueing or other "wait" actions.
 
 Greyscale is our supporting palette.
 
