@@ -1,11 +1,11 @@
 # Site settings
-name: Templates Test Site
-title: UX Spec Templates Test Site
+name: Firefox Marketplace Style Guide
+title: Firefox Marketplace Style Guide
 email: tsmuse@mozilla.com
-description: "A testbed and example for the UX Spec templates running on Jekyll"
+description: "A styleguide and pattern library for the Firefox Marketplace"
 # these need to be changed for each project
-baseurl: "/Firefox-Marketplace-UXSpecs-Templates" #this is the github project name WITHOUT the trailing /
-url: "https://tsmuse.github.io"  #this the url of the GHPages account your project is hosted at
+baseurl: "/marketplace-style-guides" #this is the github project name WITHOUT the trailing /
+url: "https://pwalm.github.io"  #this the url of the GHPages account your project is hosted at
 
 # Build settings
 markdown: kramdown
