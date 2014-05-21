@@ -1,5 +1,4 @@
-#Marketplace Style Guide
-##Copy
+#Marketplace Style Guide - Copy
 
 ##Buttons & Controls
 There are 4 types of buttons sizes: `tiny` (24px high), `small` (36px high), `medium` (48px high), and `large` (60px high). Each size has a specific use: `tiny` is used for the purchase button on mobile devices. 'small' is used for I DUNNO. NEEDED? `medium` is used for pretty much everything on tablet and desktop. `large` is reserved for CTAs or marketing purposes.
@@ -36,5 +35,4 @@ The typeface we use for all of our sites is Fira Sans OT. `h1` and `h2` are used
 
 
 ##Grid
-We use a responsive fluid grid system for all of our sites. It scales nicely from 4 columns for mobile (320px) to 16 for desktop (1280px). Columns are 60px wide with a 20 px gutter.
-/*** EXPAND ON THIS LATER ***/
+We use a responsive frameless grid system for all of our sites. It scales nicely from 4 columns for mobile (320px) to 8 for tablet (640px) to 16 for desktop (1280px). Columns are 60px wide with a 20 px gutter (with 10px padding on either side).
