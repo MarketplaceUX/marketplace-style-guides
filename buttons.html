@@ -4,21 +4,92 @@ multipage: false
 ---
 
 <div class="container">
-	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail">
-					<img data-src="holder.js/1100x500" alt="thumbnail image, replace this alt text"/>
-				<h3>Thumbnail 01</h3>
-				<p>
-					Blog gentrify +1 8-bit deep v Truffaut. PBR yr Echo Park hashtag Blue Bottle. Ethical cardigan cred, Marfa selvage banjo iPhone. Fap authentic Marfa Carles Godard slow-carb. Literally brunch Neutra messenger bag aesthetic gastropub organic Etsy, mlkshk ethnic ennui slow-carb. Gastropub narwhal distillery street art, pork belly Odd Future fashion axe artisan tattooed raw denim. Plaid kitsch Brooklyn fap dreamcatcher.
-				</p>
-			</div>
-		</div>
+	<div class="col-sm-3 col-md-3 col-lg-3">
+		<ul  class="secondaryMenu" data-spy="affix" data-offset-top="70" data-offset-bottom="200">
+			<li><a href="#buttonSizes">Button Sizes</a></li>
+			<li><a href="#buttonStates">Button States</a></li>
+			<li><a href="#extraButtons">Extra Buttons</a></li>
+			<li><a href="#dropdowns">Dropdowns</a></li>
+			<li><a href="#controls">Controls</a></li>
+			<li><a href="#sliders">Sliders</a></li>
+			<li><a href="#blockViewAll">View All</a></li>
+			<li><a href="#progressBars">Progress Bars</a></li>
+		</ul>
 	</div>
+	<div class="col-sm-9 col-md-9 col-lg-8">
+		<h1>Buttons</h1>
+		<br>
+		<div class="hiddenAnchor" id="buttonSizes"></div>
+		<h2>Button Sizes</h2>
+		<img src="img/buttonSizes.png"/><br/>
+		<br>
+		<p class="longText">
+			There are 4 types of buttons sizes: `tiny` (24px high), `small` (36px high), `medium` (48px high), and `large` (60px high). Each size has a specific use: `tiny` is used for the purchase button on mobile devices. `small` and `medium` are used for everything else on mobile/tablet/desktop. `large` is reserved for CTAs or marketing purposes.
+		</p>
+		<br>
+		<div class="hiddenAnchor" id="buttonStates"></div>
+		<h2>Button States</h2>
+		<img src="img/buttonStates.png"/><br/>
+		<br>
+		<p class="longText">
+While buttons have an explicit height, they can vary in width. The ideal width of a button is 10px of padding to the left and right of the button's copy.
+
+Buttons have a 2px drop shadow. The shadow color is the dark secondary of the button's main color.
+
+Unless it is one of the buttons mentioned above, all controls are "action blue".
+		</p>
+		<br>
+		<div class="hiddenAnchor" id="extraButtons"></div>
+		<h2>Extra Buttons</h2>
+		<img src="img/extraButtonStyles.png"/><br/>
+		<br>
+		<p class="longText">
+Some buttons use icons instead of or with text for simplicity/clarity. The same spacing rules mentioned above apply: 10px of padding. The segmented control is currently mobile only.
+		</p>
+	</div>
+	<br>
+	<div class="hiddenAnchor" id="extraButtons"></div>
+	<h2>Extra Buttons</h2>
+	<img src="img/extraButtonStyles.png"/><br/>
+	<br>
+	<p class="longText">
+Some buttons use icons instead of or with text for simplicity/clarity. The same spacing rules mentioned above apply: 10px of padding. The segmented control is currently mobile only.
+	</p>
+	<br>
+	<div class="hiddenAnchor" id="dropdowns"></div>
+	<h2>Dropdowns</h2>
+	<img src="img/dropdowns.png"/><br/>
+	<br>
+	<div class="hiddenAnchor" id="controls"></div>
+	<h2>Controls</h2>
+	<img src="img/variousControls.png"/><br/>
+	<br>
+	<img src="img/paginationToggle.png"/><br/>
+	<br>
+	<div class="hiddenAnchor" id="sliders"></div>
+	<h2>Sliders</h2>
+	<img src="img/sliders.png"/><br/>
+	<br>
+	<div class="hiddenAnchor" id="blockViewAll"></div>
+	<h2>Collection Block View All</h2>
+	<img src="img/blockViewAll.png"/><br/>
+	<br>
+	<div class="hiddenAnchor" id="blockViewAll"></div>
+	<h2>Collection Block View All</h2>
+	<img src="img/blockViewAll.png"/><br/>
+	<br>
+	<p class="longText">
+This control appears at the bottom of editorial collection blocks. Tapping/clicking it takes you to a collection detail page.
+	</p>
+	<br>
+	<div class="hiddenAnchor" id="progressBars"></div>
+	<h2>Progress Bars</h2>
+	<img src="img/progressBars.png"/><br/>
+	<br>
+</div>
 	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
 		NOTE: This is currently broken in the Jekyll ver of this template.
 		-->
 		{% if page.multipage %}
 			{% include homePagination.html %}
 		{% endif %}
-</div>
