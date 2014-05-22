@@ -6,13 +6,22 @@ multipage: false
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-12">
-			<div class="thumbnail">
-					<img data-src="holder.js/1100x500" alt="thumbnail image, replace this alt text"/>
-				<h3>Thumbnail 01</h3>
-				<p>
-					Blog gentrify +1 8-bit deep v Truffaut. PBR yr Echo Park hashtag Blue Bottle. Ethical cardigan cred, Marfa selvage banjo iPhone. Fap authentic Marfa Carles Godard slow-carb. Literally brunch Neutra messenger bag aesthetic gastropub organic Etsy, mlkshk ethnic ennui slow-carb. Gastropub narwhal distillery street art, pork belly Odd Future fashion axe artisan tattooed raw denim. Plaid kitsch Brooklyn fap dreamcatcher.
+			<h1>Forms</h1>
+				<img src="img/formFields.png"/><br/>
+				<br>
+				<p class="longText">There are four states for form fields: `normal`, `active`, `error`, and `disabled`.
 				</p>
-			</div>
+				<br>
+				<img src="img/formLabels.png"/><br/>
+				<br>
+				<p class="longText">Text labels are to the left of the form field, unless viewed in mobile portrait. Then the label is placed above the field, aligned left.
+				</p>
+				<br>
+				<img src="img/formIcon.png"/><br/>
+				<br>
+				<p class="longText">Form fields with icons and text use the same 10px padding rules as buttons with icons and text.
+				</p>
+				<br>
 		</div>
 	</div>
 	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
@@ -21,4 +30,3 @@ multipage: false
 		{% if page.multipage %}
 			{% include homePagination.html %}
 		{% endif %}
-</div>
