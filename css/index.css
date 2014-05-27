@@ -1,0 +1,42 @@
+h1 {
+  font-family: 'Fira Sans OT', 'Helvetica Neue', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Fira Sans OT', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+body {
+  font-family: 'Fira Sans OT', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+}
+
+#linearBg2 {
+  /* fallback */
+  background-color: #9e1f63;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9e1f63), to(#262262));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #9e1f63, #262262);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #9e1f63, #262262);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #9e1f63, #262262);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #9e1f63, #262262);
+}
