@@ -19,3 +19,7 @@
   /* Opera 11.10+ */
   background: -o-linear-gradient(top, #9e1f63, #262262);
 }
+
+.container {
+  color: #fff;
+}
