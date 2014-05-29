@@ -1,7 +1,7 @@
 ---
 layout: MarketplaceUXSpec
 multipage: false
----	
+---
 
 <div class="container">
 	<div class="col-sm-3 col-md-3 col-lg-3">
@@ -19,8 +19,17 @@ multipage: false
 		<p class="longText">
 			There are three palettes: Action, greyscale, and user collection. Each of those have two secondary palettes: light (for highlights, hover) and dark (for shadows, tapped/down states).
 		</p>
-		<div class="hiddenAnchor" id="actionPrimary"></div> 
+		<div class="hiddenAnchor" id="actionPrimary"></div>
 		<h2>Action Primary</h2>
+						<table cellpadding="15px" cellspacing="0">
+						<tr>
+							<th scope="row">Secondary light</th>
+							<td bgcolor="#67e0f">#67e0fd</td>
+							<td bgcolor="#42cafe">#42cafe</td>
+							<td bgcolor="#66d071">#66d071</td>
+							<td bgcolor="#ffe26e">#ffe26e</td>
+							<td bgcolor="#ff6c70">#ff6c70</td>
+					</tr>
 		<img src="img/actionPrimary.png"/><br/>
 		<p class="longText">
 			Action is used for buttons, alerts, etc. Light blue is for universal actions: Sign in/sign up, log out, etc. Blue is for positive or benign interactions: Purchase, contact, etc. Green is for success, red means failure or error. Yellow isn't currently used, but could be brought in for queueing or other "wait" actions.
@@ -56,7 +65,7 @@ multipage: false
 			The user collection palette is for, you guessed it, collections. But instead of light/dark palettes, the supporting tones are opacity levels: 80%, 60%, 40%. This is to achieve the layered monotone effect used in user collections.
 		</p>
 	</div>
-	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html. 
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
 		NOTE: This is currently broken in the Jekyll ver of this template.
 		-->
 		{% if page.multipage %}
