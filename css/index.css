@@ -49,10 +49,12 @@ body {
 
 .btn-medium:hover {
   background: #42cafe;
+  text-decoration: none;
 }
 
 .btn-medium:active {
   background: #3d86bd;
+  text-decoration: none;
   transform: translate(0px, 2px);
   box-shadow: 0px;
     -moz-box-shadow: 0px;
