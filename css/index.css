@@ -29,8 +29,7 @@ body {
   display: inline-block;
   position: relative;
   height: 48px;
-  width: 300px;
-  margin: 25px;
+  width: 150px;
   padding: 0px 10px 0px 10px;
   text-align: center;
   text-decoration: none;
@@ -39,21 +38,21 @@ body {
   line-height: 48px;
   font-size: 15px;
   color: #fff;
-  background: #797979;
-  box-shadow: 0px 2px #5b5b5b;
-    -moz-box-shadow: 0px 2px #5b5b5b;
-    -webkit-box-shadow: 0px 2px #5b5b5b;
+  background: #4cb1ff;
+  box-shadow: 0px 2px #3d86bd;
+    -moz-box-shadow: 0px 2px #3d86bd;
+    -webkit-box-shadow: 0px 2px #3d86bd;
   border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
 
 .btn-medium:hover {
-  background: #9b9b9b;
+  background: #42cafe;
 }
 
 .btn-medium:active {
-  background: #5b5b5b;
+  background: #3d86bd;
   transform: translate(0px, 2px);
   box-shadow: 0px;
     -moz-box-shadow: 0px;
