@@ -2,17 +2,23 @@
 layout: MarketplaceUXSpec
 multipage: false
 ---
-
 <div class="container">
-	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12">
+	<div class="col-sm-3 col-md-3 col-lg-3">
+		<ul  class="secondaryMenu" data-spy="affix" data-offset-top="70" data-offset-bottom="200">
+			<li><a href="#test">Test</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-9 col-md-9 col-lg-8">
 		<h1>Blocks</h1>
-				<img src="img/collectionBlocks.png"/><br/>
-				<br>
-				<p class="longText">Here is a very cursory overview of what is otherwise a very large and sprawling part of Marketplace! Collection blocks appear in The Feed, and adapt based on varying kinds of content. These examples are representative of specific types of blocks. They may have more or less content, or look a bit different, but they are all variations of these pictured.
-				</p>
-				<br>
-		</div>
+		<p class="longText">
+			This is the blocks page. Due to the enormous amount on content, it will grow over time.
+		</p>
+		<div class="hiddenAnchor" id="test"></div>
+		<h2>This is a test</h2>
+		<img src="img/test.jpg"/><br/>
+		<p class="longText">
+			Here is a bunch of test copy!
+		</p>
 	</div>
 	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
 		NOTE: This is currently broken in the Jekyll ver of this template.
@@ -20,4 +26,3 @@ multipage: false
 		{% if page.multipage %}
 			{% include homePagination.html %}
 		{% endif %}
-</div>
