@@ -260,6 +260,19 @@ td {
 
 .post pre.terminal code { background-color: #333; }
 
+/* Palette Styles */
+/* ----------------------------------------------------------*/
+.palette {
+  width: 190px;
+  height: 200px;
+  float: left;
+}
+
+.palette.ltblue {
+  background-color: #6ed2ff;
+}
+
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
