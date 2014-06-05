@@ -39,19 +39,6 @@ td {
   height: 200px;
 }
 
-/* Marketplace Styles */
-/* ----------------------------------------------------------*/
-
-/* Type */
-
-.mrktplc-h1 {
-  font-family: Fira Sans OT;
-  font-weight: light;
-  font-size: 30px;
-  color: #1a1a1a;
-}
-
-
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
@@ -420,4 +407,16 @@ td {
     width: auto;
     margin: 0 0 15px; }
 
+}
+
+/* Marketplace Styles */
+/* ----------------------------------------------------------*/
+
+/* Type */
+
+.mrktplc-h1 {
+  font-family: Fira Sans OT;
+  font-weight: light;
+  font-size: 30px;
+  color: #1a1a1a;
 }
