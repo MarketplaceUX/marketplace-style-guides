@@ -22,7 +22,7 @@ body{
 	background-image: url('../img/marketplace_logo.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center center; 
+	background-position: center center;
 }
 
 .navbar-marketplace{
@@ -49,7 +49,7 @@ p.longText{
 	font-size: 1.2em;
 }
 .menuHeading{
-	
+
 	padding-bottom: 2px;
 	border-bottom: rgba(255,149,0,0.2) 1px solid;
 
@@ -105,4 +105,17 @@ footer p{
 	border-left: 1px dotted #ccc;
 	padding-left: 5px;
 	font-size: .9em;
+}
+
+
+/* Marketplace Styles */
+/* ----------------------------------------------------------*/
+
+/* Type */
+
+.mrktplc-h1 {
+	font-family: Fira Sans OT;
+	font-weight: light;
+	font-size: 30px;
+	color: #1a1a1a;
 }
