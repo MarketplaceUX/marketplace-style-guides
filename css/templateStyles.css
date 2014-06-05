@@ -119,3 +119,88 @@ footer p{
 	font-size: 30px;
 	color: #1a1a1a;
 }
+
+.mrktplc-h2 {
+	font-family: Fira Sans OT;
+	font-weight: light;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+
+.mrktplc-h3 {
+	font-family: Fira Sans OT;
+	font-weight: light;
+	font-size: 20px;
+	line-height: 25px;
+	color: #797979;
+}
+
+.mrktplc-h4 {
+	font-family: Fira Sans OT;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 22px;
+	color: #797979;
+}
+
+.mrktplc-body {
+	font-family: Fira Sans OT;
+	font-weight: light;
+	font-size: 15px;
+	line-height: 22px;
+	color: #797979;
+}
+
+.mrktplc-category {
+	font-family: Fira Sans OT;
+	font-weight: medium;
+	font-size: 10px;
+	line-height: 12px;
+	color: #797979;
+}
+
+.mrktplc-title {
+	font-family: Fira Sans OT;
+	font-weight: medium;
+	font-size: 12px;
+	line-height: 18px;
+	color: #797979;
+}
+
+.mrktplc-author {
+	font-family: Fira Sans OT;
+	font-weight: regular;
+	font-size: 12px;
+	line-height: 18px;
+	color: #797979;
+}
+
+.mrktplc-price {
+	font-family: Fira Sans OT;
+	font-weight: regular;
+	font-size: 12px;
+	color: #4cb1ff;
+}
+
+.mrktplc-link {
+	font-family: Fira Sans OT;
+	font-weight: bold;
+	font-size: 15px;
+	color: #4cb1ff;
+}
+
+.mrktplc-list {
+	font-family: Fira Sans OT;
+	font-weight: light;
+	font-size: 15px;
+	line-height: 22px;
+	color: #797979;
+}
+
+.mrktplc-code {
+	font-family: Fira Mono OT;
+	font-weight: regular;
+	font-size: 12px;
+	line-height: 16px;
+	color: #1a1a1a;
+}
