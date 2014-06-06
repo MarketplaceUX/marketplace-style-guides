@@ -208,9 +208,7 @@ footer p{
 /* Buttons */
 
 .btn-tiny {
-	height: 24px;
 	padding: 6px 10px;
-  border: 0px;
 	margin: 25px;
   display: inline;
   position: relative;
@@ -230,11 +228,13 @@ footer p{
 }
 
 .btn-tiny:hover {
+	color: #fff;
   background: #42cafe;
 	text-decoration: none;
 }
 
 .btn-tiny:active {
+	color: ##3d86bd;
   background: #3d86bd;
 	text-decoration: none;
 	transform: translate(0px,2px);
