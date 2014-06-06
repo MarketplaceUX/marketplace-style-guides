@@ -204,3 +204,24 @@ footer p{
 	line-height: 16px;
 	color: #1a1a1a;
 }
+
+.btn-tiny {
+  border: 0px;
+  display: inline;
+  position: relative;
+  margin: 25px;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Fira Sans OT';
+  font-weight: medium;
+  font-size: 15px;
+  color: #fff;
+  background: #4cb1ff;
+  box-shadow: 0px 2px #3d86bd;
+    -moz-box-shadow: 0px 2px #3d86bd;
+    -webkit-box-shadow: 0px 2px #3d86bd;
+  border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
