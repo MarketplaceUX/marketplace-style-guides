@@ -255,10 +255,10 @@ footer p{
 	text-align: center;
 	text-decoration: none;
   color: #fff;
-  background: #64be3c;
-  box-shadow: 0px 2px #4d8d32;
-    -moz-box-shadow: 0px 2px #4d8d32;
-    -webkit-box-shadow: 0px 2px #4d8d32;
+  background: ##4cb1ff;
+  box-shadow: 0px 2px #3d86bd;
+    -moz-box-shadow: 0px 2px #3d86bd;
+    -webkit-box-shadow: 0px 2px #3d86bd;
   border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -266,7 +266,7 @@ footer p{
 
 .btn-small:hover {
 	text-decoration: none;
-  background: #66d071;
+  background: #42cafe;
 	box-shadow: 0px 2px #4d8d32;
 		-moz-box-shadow: 0px 2px #4d8d32;
 		-webkit-box-shadow: 0px 2px #4d8d32;
@@ -274,7 +274,7 @@ footer p{
 
 .btn-small:active {
 	text-decoration: none;
-  background: #4d8d32;
+  background: #3d86bd;
 	transform: translate(0px, 2px);
 }
 
