@@ -208,6 +208,7 @@ footer p{
 /* Buttons */
 
 .btn-tiny {
+	height: 24px;
 	padding: 6px 10px;
   border: 0px;
 	margin: 25px;
