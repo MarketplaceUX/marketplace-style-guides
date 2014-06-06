@@ -266,6 +266,7 @@ footer p{
 }
 
 .btn-small:hover {
+	color: #fff;
 	text-decoration: none;
   background: #42cafe;
 	box-shadow: 0px 2px #4d8d32;
@@ -307,11 +308,12 @@ footer p{
 }
 
 .btn-medium:hover {
-text-decoration: none;
-background: #42cafe;
-box-shadow: 0px 2px #4d8d32;
-	-moz-box-shadow: 0px 2px #4d8d32;
-	-webkit-box-shadow: 0px 2px #4d8d32;
+	color: #fff;
+	text-decoration: none;
+	background: #42cafe;
+	box-shadow: 0px 2px #4d8d32;
+		-moz-box-shadow: 0px 2px #4d8d32;
+		-webkit-box-shadow: 0px 2px #4d8d32;
 }
 
 .btn-medium:active {
