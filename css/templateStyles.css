@@ -244,9 +244,9 @@ footer p{
   border: 0px;
   display: inline;
   position: relative;
+	margin: 25px;
   height: 36px;
-  margin: 25px;
-  padding: 0px 10px 0px 10px;
+  padding: 6px 10px;
   text-align: center;
   text-decoration: none;
   font-family: 'Fira Sans OT';
