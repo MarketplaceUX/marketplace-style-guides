@@ -325,3 +325,39 @@ footer p{
     -moz-box-shadow: 0px;
     -webkit-box-shadow: 0px;
 }
+
+.btn-large {
+  border: 0px;
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  width: 200px;
+  margin: 25px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Fira Sans OT';
+  font-weight: medium;
+  line-height: 60px;
+  font-size: 15px;
+  color: #fff;
+  background: #f54b3c;
+  box-shadow: 0px 2px #b63932;
+    -moz-box-shadow: 0px 2px #b63932;
+    -webkit-box-shadow: 0px 2px #b63932;
+  border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.btn-large:hover {
+  background: #ff6c70;
+}
+
+.btn-large:active {
+  background: #b63932;
+  transform: translate(0px, 2px);
+  box-shadow: 0px;
+    -moz-box-shadow: 0px;
+    -webkit-box-shadow: 0px;
+}
