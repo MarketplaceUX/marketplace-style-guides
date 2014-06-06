@@ -231,15 +231,15 @@ footer p{
 .btn-tiny:hover {
   background: #42cafe;
 	text-decoration: none;
-	box-shadow: 0px 2px #3d86bd;
-		-moz-box-shadow: 0px 2px #3d86bd;
-		-webkit-box-shadow: 0px 2px #3d86bd;
 }
 
 .btn-tiny:active {
   background: #3d86bd;
-	transform: translate (0px, 2px);
+	transform: translate(0px, 2px);
 	text-decoration: none;
+	box-shadow: 0px 0px;
+		-moz-box-shadow: 0px 0px;
+		-webkit-box-shadow: 0px 0px;
 }
 
 .btn-small {
