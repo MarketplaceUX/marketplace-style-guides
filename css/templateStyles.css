@@ -235,12 +235,12 @@ footer p{
 
 .btn-tiny:active {
   background: #3d86bd;
-	transform: translate(0px,0px);
-		  -moz-translate(0px,0px);
 	text-decoration: none;
-	box-shadow: 0px 0px;
-		-moz-box-shadow: 0px 0px;
-		-webkit-box-shadow: 0px 0px;
+	transform: translate(0px, 2px);
+		-moz-translate(0px,0px);
+	box-shadow: 0px;
+		-moz-box-shadow: 0px;
+		-webkit-box-shadow: 0px;
 }
 
 .btn-small {
