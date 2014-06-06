@@ -225,3 +225,17 @@ footer p{
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
+
+.btn-tiny:hover {
+  background: #6ed2ff;
+	text-decoration: none;
+}
+
+.btn-tiny:active {
+  background: #3d86bd;
+  transform: translate(0px, 2px);
+	text-decoration: none;
+  box-shadow: 0px;
+    -moz-box-shadow: 0px;
+    -webkit-box-shadow: 0px;
+}
