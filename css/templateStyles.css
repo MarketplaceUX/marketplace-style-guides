@@ -205,17 +205,19 @@ footer p{
 	color: #1a1a1a;
 }
 
+/* Buttons */
+
 .btn-tiny {
+	padding: 6px 10px;
   border: 0px;
+	margin: 25px;
   display: inline;
   position: relative;
-  margin: 25px;
-  padding: 6px 10px;
-  text-align: center;
-  text-decoration: none;
   font-family: 'Fira Sans OT';
   font-weight: medium;
   font-size: 15px;
+	text-align: center;
+	text-decoration: none;
   color: #fff;
   background: #4cb1ff;
   box-shadow: 0px 2px #3d86bd;
@@ -227,31 +229,30 @@ footer p{
 }
 
 .btn-tiny:hover {
-  background: #6ed2ff;
+  background: #42cafe;
 	text-decoration: none;
+	box-shadow: 0px 2px #3d86bd;
+		-moz-box-shadow: 0px 2px #3d86bd;
+		-webkit-box-shadow: 0px 2px #3d86bd;
 }
 
 .btn-tiny:active {
   background: #3d86bd;
-  transform: translate(0px, 2px);
+	transform: translate (0px, 2px);
 	text-decoration: none;
-  box-shadow: 0px;
-    -moz-box-shadow: 0px;
-    -webkit-box-shadow: 0px;
 }
 
 .btn-small {
+	padding: 10px 10px;
   border: 0px;
+	margin: 25px;
   display: inline;
   position: relative;
-	margin: 25px;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
   font-family: 'Fira Sans OT';
   font-weight: medium;
-
   font-size: 15px;
+	text-align: center;
+	text-decoration: none;
   color: #fff;
   background: #64be3c;
   box-shadow: 0px 2px #4d8d32;
@@ -265,16 +266,17 @@ footer p{
 .btn-small:hover {
 	text-decoration: none;
   background: #66d071;
+	box-shadow: 0px 2px #4d8d32;
+		-moz-box-shadow: 0px 2px #4d8d32;
+		-webkit-box-shadow: 0px 2px #4d8d32;
 }
 
 .btn-small:active {
 	text-decoration: none;
   background: #4d8d32;
-  transform: translate(0px, 2px);
-  box-shadow: 0px;
-    -moz-box-shadow: 0px;
-    -webkit-box-shadow: 0px;
+	transform: translate(0px, 2px);
 }
+
 .btn-medium {
   border: 0px;
   display: inline-block;
