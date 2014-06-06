@@ -114,21 +114,21 @@ footer p{
 /* Type */
 
 .mrktplc-h1 {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: light;
 	font-size: 30px;
 	color: #1a1a1a;
 }
 
 .mrktplc-h2 {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: light;
 	font-size: 20px;
 	color: #1a1a1a;
 }
 
 .mrktplc-h3 {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: light;
 	font-size: 20px;
 	line-height: 25px;
@@ -136,7 +136,7 @@ footer p{
 }
 
 .mrktplc-h4 {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: bold;
 	font-size: 15px;
 	line-height: 22px;
@@ -144,7 +144,7 @@ footer p{
 }
 
 .mrktplc-body {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: light;
 	font-size: 15px;
 	line-height: 22px;
@@ -152,7 +152,7 @@ footer p{
 }
 
 .mrktplc-category {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: medium;
 	font-size: 10px;
 	line-height: 12px;
@@ -160,7 +160,7 @@ footer p{
 }
 
 .mrktplc-title {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: medium;
 	font-size: 12px;
 	line-height: 18px;
@@ -168,7 +168,7 @@ footer p{
 }
 
 .mrktplc-author {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: regular;
 	font-size: 12px;
 	line-height: 18px;
@@ -176,21 +176,21 @@ footer p{
 }
 
 .mrktplc-price {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: regular;
 	font-size: 12px;
 	color: #4cb1ff;
 }
 
 .mrktplc-link {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: bold;
 	font-size: 15px;
 	color: #4cb1ff;
 }
 
 .mrktplc-list {
-	font-family: Fira Sans OT;
+	font-family: 'Fira Sans OT';
 	font-weight: light;
 	font-size: 15px;
 	line-height: 22px;
@@ -198,7 +198,7 @@ footer p{
 }
 
 .mrktplc-code {
-	font-family: Fira Mono OT;
+	font-family: 'Fira Mono OT';
 	font-weight: regular;
 	font-size: 12px;
 	line-height: 16px;
@@ -280,9 +280,8 @@ footer p{
 
 .btn-medium {
   border: 0px;
-  display: inline-block;
+  display: inline;
   position: relative;
-  width: 300px;
   margin: 25px;
   padding: 10px 10px;
   text-align: center;
