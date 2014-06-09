@@ -248,40 +248,39 @@ footer p{
 }
 
 .btn-small {
+	height: 36px;
 	padding: 10px 10px;
-  border: 0px;
-	margin: 25px;
-  display: inline;
-  position: relative;
-  font-family: 'Fira Sans OT';
-  font-weight: medium;
-  font-size: 15px;
+	margin: 25px 25px 0px 25px;
+	display: inline-block;
+	position: relative;
+	font-family: 'Fira Sans OT';
+	font-weight: normal;
+	font-size: 15px;
+	color: #fff;
 	text-align: center;
 	text-decoration: none;
-  color: #fff;
-  background: #4cb1ff;
-  box-shadow: 0px 2px #3d86bd;
-    -moz-box-shadow: 0px 2px #3d86bd;
-    -webkit-box-shadow: 0px 2px #3d86bd;
-  border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+	line-height: 15px;
+	background-color: #4cb1ff;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	box-shadow: 0px 2px #3d86bd;
+		-moz-box-shadow: 0px 2px #3d86bd;
+		-webkit-box-shadow: 0px 2px #3d86bd;
 }
 
 .btn-small:hover {
 	color: #fff;
+	background: #42cafe;
 	text-decoration: none;
-  background: #42cafe;
-	box-shadow: 0px 2px #4d8d32;
-		-moz-box-shadow: 0px 2px #4d8d32;
-		-webkit-box-shadow: 0px 2px #4d8d32;
 }
 
 .btn-small:active {
+	background: #3d86bd;
 	text-decoration: none;
-  background: #3d86bd;
-	transform: translate(0px,2px);
-		-moz-translate(0px,2px)
+	transform: translate(0, 2px);
+		-moz-transform: translate(0, 2px);
+		-webkit-transform: translate(0, 2px);
 	box-shadow: 0px;
 		-moz-box-shadow: 0px;
 		-webkit-box-shadow: 0px;
