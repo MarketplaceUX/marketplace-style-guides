@@ -208,8 +208,9 @@ footer p{
 /* Buttons */
 
 .btn-tiny {
-	padding: 6px 10px;
+	padding: 6px 0px;
 	margin: 25px;
+	width: 65px;
   display: inline;
   position: relative;
   font-family: 'Fira Sans OT';
