@@ -259,7 +259,7 @@ footer p{
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
-	line-height: 14px;
+	line-height: 16px;
 	background-color: #4cb1ff;
 	border-radius: 5px;
 		-moz-border-radius: 5px;
@@ -287,45 +287,42 @@ footer p{
 }
 
 .btn-medium {
-  border: 0px;
-  display: inline;
-  position: relative;
-  margin: 25px;
-  padding: 16px 16px;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Fira Sans OT';
-  font-weight: medium;
-  line-height: 48px;
-  font-size: 15px;
-  color: #fff;
-  background: #797979;
-	background: #4cb1ff;
+	height: 48px;
+	padding: 10px 16px;
+	margin: 25px 25px 0px 25px;
+	display: inline-block;
+	position: relative;
+	font-family: 'Fira Sans OT';
+	font-weight: normal;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 17px;
+	background-color: #4cb1ff;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
 	box-shadow: 0px 2px #3d86bd;
 		-moz-box-shadow: 0px 2px #3d86bd;
 		-webkit-box-shadow: 0px 2px #3d86bd;
-  border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
 }
 
 .btn-medium:hover {
 	color: #fff;
-	text-decoration: none;
 	background: #42cafe;
-	box-shadow: 0px 2px #4d8d32;
-		-moz-box-shadow: 0px 2px #4d8d32;
-		-webkit-box-shadow: 0px 2px #4d8d32;
+	text-decoration: none;
 }
 
 .btn-medium:active {
-	text-decoration: none;
 	background: #3d86bd;
-  transform: translate(0px,2px);
-		-moz-translate(0px,2px)
-  box-shadow: 0px;
-    -moz-box-shadow: 0px;
-    -webkit-box-shadow: 0px;
+	text-decoration: none;
+	transform: translate(0, 2px);
+		-moz-transform: translate(0, 2px);
+		-webkit-transform: translate(0, 2px);
+	box-shadow: 0px;
+		-moz-box-shadow: 0px;
+		-webkit-box-shadow: 0px;
 }
 
 .btn-large {
