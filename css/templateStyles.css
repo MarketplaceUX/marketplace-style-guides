@@ -210,8 +210,7 @@ footer p{
 .btn-tiny {
   width: 65px;
   height: 24px;
-  border: 0px;
-  border-style: none;
+  padding: 6px 17px;
   margin: 25px 25px 0px 25px;
   display: inline;
   position: relative;
@@ -221,10 +220,14 @@ footer p{
   color: #fff;
   text-align: center;
   text-decoration: none;
+  line-height: 15px;
   background-color: #4cb1ff;
   border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+  box-shadow: 0px 2px #3d86bd;
+    -moz-box-shadow: 0px 2px #3d86bd;
+    -webkit-box-shadow: 0px 2px #3d86bd;
 }
 
 .btn-tiny:hover {
