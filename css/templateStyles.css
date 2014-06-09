@@ -325,6 +325,11 @@ footer p{
 		-webkit-box-shadow: 0px;
 }
 
+.edit {
+	padding: 10px;
+	align: center;
+}
+
 .btn-large {
   border: 0px;
   display: inline-block;
