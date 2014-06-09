@@ -208,24 +208,20 @@ footer p{
 /* Buttons */
 
 .btn-tiny {
-	padding: 6px 0px;
-	margin: 25px;
-	width: 65px;
+  width: 65px;
+  height: 24px;
+  border: 0px;
+  border-style: none;
+  margin: 25px 25px 0px 25px;
   display: inline;
   position: relative;
   font-family: 'Fira Sans OT';
-  font-weight: medium;
+  font-weight: normal;
   font-size: 15px;
-	text-align: center;
-	text-decoration: none;
   color: #fff;
-  background: #4cb1ff;
-  box-shadow: 0px 2px #3d86bd;
-    -moz-box-shadow: 0px 2px #3d86bd;
-    -webkit-box-shadow: 0px 2px #3d86bd;
-  border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4cb1ff
 }
 
 .btn-tiny:hover {
