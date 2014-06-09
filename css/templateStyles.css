@@ -212,7 +212,7 @@ footer p{
   height: 24px;
   padding: 6px 17px;
   margin: 25px 25px 0px 25px;
-  display: inline;
+  display: inline-block;
   position: relative;
   font-family: 'Fira Sans OT';
   font-weight: normal;
@@ -240,8 +240,9 @@ footer p{
 	color: ##3d86bd;
   background: #3d86bd;
 	text-decoration: none;
-	transform: translate(0px,2px);
-		-moz-translate(0px,0px);
+	transform: translate(0, 2px);
+		-moz-transform: translate(0, 2px);
+		-webkit-transform: translate(0, 2px);
 	box-shadow: 0px;
 		-moz-box-shadow: 0px;
 		-webkit-box-shadow: 0px;
