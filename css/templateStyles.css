@@ -237,7 +237,6 @@ footer p{
 }
 
 .btn-tiny:active {
-	color: ##3d86bd;
   background: #3d86bd;
 	text-decoration: none;
 	transform: translate(0, 2px);
