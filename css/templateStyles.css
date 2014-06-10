@@ -211,7 +211,7 @@ footer p{
   width: 65px;
   height: 24px;
   padding: 6px 17px;
-  margin: 25px 25px 0px 25px;
+  margin: 25px 25px 25px 25px;
   display: inline-block;
   position: relative;
   font-family: 'Fira Sans OT';
@@ -250,7 +250,7 @@ footer p{
 .btn-small {
 	height: 36px;
 	padding: 10px 10px;
-	margin: 25px 25px 0px 25px;
+	margin: 25px 25px 25px 25px;
 	display: inline-block;
 	position: relative;
 	font-family: 'Fira Sans OT';
@@ -289,7 +289,7 @@ footer p{
 .btn-medium {
 	height: 48px;
 	padding: 10px 10px;
-	margin: 25px 25px 0px 25px;
+	margin: 25px 25px 25px 25px;
 	display: inline-block;
 	position: relative;
 	font-family: 'Fira Sans OT';
@@ -333,7 +333,7 @@ footer p{
 .btn-large {
 	height: 60px;
 	padding: 22px 16px;
-	margin: 25px 25px 0px 25px;
+	margin: 25px 25px 25px 25px;
 	display: inline-block;
 	position: relative;
 	font-family: 'Fira Sans OT';
