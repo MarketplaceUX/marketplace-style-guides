@@ -365,3 +365,7 @@ footer p{
 		-moz-box-shadow: 0px;
 		-webkit-box-shadow: 0px;
 }
+
+.btn-medium.edit {
+	padding: 10px;
+}
