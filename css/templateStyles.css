@@ -259,7 +259,7 @@ footer p{
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
-	line-height: 16px;
+	line-height: 17px;
 	background-color: #4cb1ff;
 	border-radius: 5px;
 		-moz-border-radius: 5px;
@@ -325,10 +325,7 @@ footer p{
 		-webkit-box-shadow: 0px;
 }
 
-.edit {
-	padding: 10px;
-	align: center;
-}
+
 
 .btn-large {
 	height: 60px;
