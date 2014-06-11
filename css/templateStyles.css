@@ -325,8 +325,6 @@ footer p{
 		-webkit-box-shadow: 0px;
 }
 
-
-
 .btn-large {
 	height: 60px;
 	padding: 22px 16px;
@@ -366,6 +364,6 @@ footer p{
 		-webkit-box-shadow: 0px;
 }
 
-#edit {
+.edit {
 	padding: 10px;
 }
