@@ -371,13 +371,17 @@ footer p{
 /* Forms */
 
 .textInput {
+	padding: 0px 10px;
 	background-color: #fff;
 	border: 1px solid #cbcbcb;
 	border-radius: 5px;
 	height: 40px;
 	width: 300px;
+	font-family: 'Fira Sans OT';
+  font-weight: normal;
+  font-size: 20px;
 }
 
-.textInput:active {
+.textInput:active, .textInput:focus {
 	border-color: #4cb1ff;
 }
