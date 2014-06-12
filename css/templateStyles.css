@@ -367,3 +367,11 @@ footer p{
 .edit {
 	padding: 0px 20px;
 }
+
+/* Forms */
+
+input [type="text"] {
+	background-color: #fff;
+	border: 1px solid #cbcbcb;
+	border-radius: 5px;
+}
