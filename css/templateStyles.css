@@ -398,3 +398,12 @@ footer p{
 	font-size: 20px;
 	color: #b63932;
 }
+
+.textInputDisabled {
+	padding: 0px 10px;
+	background-color: #f1f1f1;
+	border: 1px solid #cbcbcb;
+	border-radius: 5px;
+	height: 40px;
+	width: 300px;
+}
