@@ -370,7 +370,7 @@ footer p{
 
 /* Forms */
 
-input [type="text"] {
+.textInput {
 	background-color: #fff;
 	border: 1px solid #cbcbcb;
 	border-radius: 5px;
