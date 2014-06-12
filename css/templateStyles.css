@@ -385,3 +385,15 @@ footer p{
 .textInput:active, .textInput:focus {
 	border-color: #4cb1ff;
 }
+
+.textInputError {
+	padding: 0px 10px;
+	background-color: #fff;
+	border: 1px solid #f54b3c;
+	border-radius: 5px;
+	height: 40px;
+	width: 300px;
+	font-family: 'Fira Sans OT';
+	font-weight: normal;
+	font-size: 20px;
+}
