@@ -9,7 +9,9 @@ ul.dropdown-menu li ul li a{
 }
 
 hr{
-  margin: 2em 0px 1em
+  font-size: 2em;
+  margin: 2em 0px 1em;
+  padding-top: 1.5em;
   border: 0;
   height: 1px;
   background: #c7c7c7;
