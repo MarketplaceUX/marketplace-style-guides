@@ -8,6 +8,13 @@ ul.dropdown-menu li ul li a{
   font-size: 1.2em;
 }
 
+hr{
+  margin: 2em 0px 1em
+  border: 0;
+  height: 1px;
+  background: #c7c7c7;
+}
+
 h2{
 	font-size: 2em;
 }
