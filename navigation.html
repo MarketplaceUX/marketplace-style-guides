@@ -7,40 +7,72 @@ multipage: false
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-12">
 			<h1>Navigation</h1>
-				<h2>Desktop navigation</h2>
-				<img src="img/navBarDesktop.png"/><br/>
-				<br>
-				<p class="longText">This is the logged-in state of the navigation bar. If no one is logged in, the "My Account" dropdown does not appear.
-				</p>
-				<br>
-				<img src="img/navBarDesktopDropDown.png"/><br/>
-				<br>
-				<p class="longText">This is the category dropdown menu. The blue squares are category icons. Note, this is the logged-out state.
-				</p>
-				<br>
-				<img src="img/breadcrumbs.png"/><br/>
-				<br>
-				<p class="longText">Breadcrumbs appear on desktop and tablet.
-				</p>
-				<br>
-				<img src="img/sideBarNav.png"/><br/>
-				<br>
-				<p class="longText">This new sidebar navigation style is for the devHub only.
-				</p>
-				<br>
-				<h2>Mobile Navigation</h2>
-				<br>
-				<img src="img/mobileNav.png"/><br/>
-				<br>
-				<p class="longText">Here we have two versions of the mobile navigation bar. The top two are the two different states of the standard mobile Marketplace app: browse and settings. The third navigation bar is specific to Tarako devices. There is no logged in state for this fork of the Marketplace.
-				</p>
-				<br>
-				<h2>Events</h2>
-				<br>
-				<img src="img/events.png"/><br/>
-				<br>
-				<p class="longText">Events appear at the top of the screen, pushing the page below down. When dismissed by tapping 'x', the event block slides up off the page.
-				</p>
+				
+				<img src="img/navigation-home-mobile.png">
+				<img src="img/navigation-home-tablet.png">
+				<img src="img/navigation-home-desktop.png">
+				
+				<p class="longText">The navigation of the Marketplace contains the main sections of the Marketplace app:</p>
+				
+        <ol class="longText">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Categories</li>
+          <li>Community</li>
+          <li>My Account (not visible, because user is not logged in)</li>
+			  </ol>
+			  
+			  <hr>
+
+        <img src="img/navigation-my-account-menu-mobile.png">
+        <img src="img/navigation-my-account-menu-tablet.png">
+        <img src="img/navigation-my-account-menu-desktop.png">
+
+			  <p class="longText">The My Account menu is only visible when a user is logged in. Logging in is indicated by the presence of avatar on the top-right corner.</p>
+			  
+			  <p class="longText">It contains the sub-menu with entries:</p>
+			  
+			  <ol>
+			    <li>Profile</li>
+			    <li>Apps & Collections</li>
+			    <li>Feedback</li>
+			    <li>Sign Out</li>
+			  </ol>
+			  
+			  <h3 class="specItem">Mobile</h3>
+			  
+			  <img src="img/navigation-home-mobile.png">
+			  
+			  <p class="longText warning">Put circled letters where relevant.</p>
+			  
+			  <ol class="longText letters">
+  			  <li>The menu is a scrollable horizontal menu with magnetic links. That is, the selection snaps to the next item in the list as the user scrolls.) under the app's header.</li>
+  			  <li>The current location of the user in the hierarchy is indicated by the underline that is a fixed point on the left side of the menu.</li>
+  			  <li>The settings submenu is available by tapping the settings button on the left side of the menu.</li>
+  			  <li>Tapping the Marketplace button on the right side of the settings menu brings the user back to the main menu.</li>
+  			  <li><a href="http://people.mozilla.org/~asantos/feedPrototypes/navPrototypeMarch2014/mobile_feed_nav_changes.html">Example of the menu behaviour</a></li>
+			  </ol>
+			  
+			  <h3 class="specItem">Tablet</h3>
+			  
+			  <img src="img/navigation-home-tablet.png">
+			  
+			  <p class="longText warning">Put circled letters where relevant.</p>
+			  
+			  <ol class="longText letters">
+			    <li>The menu is a fixed horizontal list under the app's header.</li>
+			    <li>The current location of the user in the hierarchy is indicated by the underline that moves from menu item to menu item.</li>
+			  </ol>
+			  
+			  <h3 class="specItem">Desktop</h3>
+			  
+			  <img src="img/navigation-home-desktop.png">
+			  
+			  <p class="longText warning">Put circled letters where relevant.</p>
+			  
+			  <p class="longText">Identical to tablet.</p>
+			  
 		</div>
 	</div>
 	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
