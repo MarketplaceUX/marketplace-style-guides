@@ -1,0 +1,35 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<h1>App Details &rarr; Report Abuse</h1>
+			
+      <p class="longText">Provides a way to report inappropriate content or behaviour with the app and submit it to the app developer team.</p>
+      
+      <p class="longText">To access this interface, tap the Report App Abuse button located under the Tools section of the <a href="app-details-page.html">App Details</a> page.</p>
+      
+      <p class="longText">This page contains:</p>
+      
+      <ol class="longText">
+        <li>Abuse textbox</li>
+        <li>Send Report button. This button only appears after a value has been inputted into the abuse textbox.</li>
+      </ol>
+      
+      <img src="img/app-details-abuse-mobile.png">
+      
+      <img src="img/app-details-abuse-tablet.png">
+       
+      <img src="img/app-details-abuse-desktop.png">
+
+		</div>
+	</div>
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}

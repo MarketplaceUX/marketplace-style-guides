@@ -1,0 +1,56 @@
+/* Specific style for Marketplace Style Guide */
+
+ul.dropdown-menu li ul li a{
+  color: #262626;
+}
+
+.longText{
+  font-size: 1.2em;
+}
+
+hr{
+  font-size: 2em;
+  margin: 2em 0px 2.5em;
+  border: 0;
+  height: 1px;
+  background: #c7c7c7;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3.specItem{
+  margin: 2em 0px 1em;
+  padding-top: 1.5em;
+  border-top: 1px solid #c7c7c7;
+}
+
+h4{
+  margin: 2em 0 1em;
+}
+
+ol.letters{
+  list-style-type: upper-alpha;
+}
+
+#content ol li {
+  margin: 1.5em 0;
+}
+
+#content ol li ul li {
+  margin: .5em 0;
+}
+
+#content ol li ul li:last-child {
+  margin: 0;
+}
+
+#content img {
+  margin: 1.5em 0 2.5em;
+  display: block;
+}
+
+.warning{
+  color: #ff0000;
+}

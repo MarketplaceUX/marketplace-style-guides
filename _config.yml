@@ -1,0 +1,21 @@
+# Site settings
+name: Firefox Marketplace Style Guide
+title: Firefox Marketplace Style Guide
+email: tsmuse@mozilla.com
+description: "A styleguide and pattern library for the Firefox Marketplace"
+# these need to be changed for each project
+baseurl: "/marketplace-style-guides" #this is the github project name WITHOUT the trailing /
+url: "https://pwalm.github.io"  #this the url of the GHPages account your project is hosted at
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
+
+# YAML Frontmatter defaults 
+# currently commented out to not break the testbed. Uncomment when the default spec template is complete
+#defaults:
+#-
+#  scope:
+#    path: '' #left empty for all files 
+#  values:
+#    layout: "spec-default"

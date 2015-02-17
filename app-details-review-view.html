@@ -1,0 +1,51 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<h1>App Details &rarr; View All Reviews</h1>
+			
+      <p class="longText">Provides a way to display all reviews that has been written about an app, as well as to write a new review.</p>
+      
+      <p class="longText">To access this page, select either the average review star or the total number of review, on the Review area inside the <a href="app-details-page.html">App Details</a> page.</p>
+      
+      <img src="img/app-details-review-view-mobile.png">
+      
+      <img src="img/app-details-review-view-tablet.png">
+       
+      <img src="img/app-details-review-view-desktop.png">
+      
+      <p class="longText letters">This interface contains:</p>
+			
+			<ol class="longText letters">
+			  <li><strong>Navigation</strong>: back button on the Mobile layout, and breadcrumb links on the Tablet and Desktop layouts</li>
+  			<li><strong>Individual Review</strong>, which contains:</li>
+  	      <ul>
+            <li>User star rating</li>
+            <li>Username</li>
+            <li>Review text</li>
+            <li>A link to report an individual review, which contains these buttons:
+              <ul>
+                <li>Spam or otherwise non-review content</li>
+                <li>Inappropriate language/dialog</li>
+                <li>Misplaced bug report or support request</li>
+                <li>Cancel</li>
+              </ul>
+            </li>
+            <li>Review timestamp</li>
+          </ul>
+        <li><strong><a href="app-details-review-write.html">Write a Review button</a></strong>: displays the write review interface.</li>
+  			<li><strong>More button</strong>: displays the next 20 reviews.</li>
+      </ol>
+
+		</div>
+	</div>
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}

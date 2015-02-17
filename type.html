@@ -1,0 +1,86 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---
+
+<div class="container">
+	<div class="col-sm-3 col-md-3 col-lg-3">
+		<ul  class="secondaryMenu" data-spy="affix" data-offset-top="70" data-offset-bottom="200">
+			<li><a href="#desktopTablet">Desktop & Tablet</a></li>
+			<li><a href="#mobile">Mobile</a></li>
+			<li><a href="#linksCode">Links, Lists, & Code</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-9 col-md-9 col-lg-8">
+		<h1>Typography</h1>
+		<br>
+		<h2>Fira Sans</h2>
+		<p>Designed to integrate with the character of Firefox OS, the Fira Sans typeface also aims to cover the legibility needs for a large range of handsets varying in screen quality and rendering. The Fira font family comes in a Sans Serif with 4 weights (light, regular, medium and bold) all accompanied by italic styles. It can be downloaded <a href="https://github.com/mozilla/Fira/archive/master.zip">here</a>. The package also includes a Mono Spaced variant with 2 weights (regular and bold).</p>
+		<br>
+		<div class="hiddenAnchor" id="desktopTablet"></div>
+			<h2>Desktop & Tablet</h2>
+				<h2>h1</h2>
+					<div class="mrktplc-h1">Search results: 120 puzzle games</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: light;<br>font-size: 30px;<br>color: #1a1a1a;</p>
+				<h2>h2</h2>
+					<div class="mrktplc-h2">Related collections</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: light;<br>font-size: 20px;<br>color: #1a1a1a;</p>
+					<br>
+					<p class="longText">
+						<strong>h1</strong> and <strong>h2</strong> are used on desktop and tablet only.
+					</p>
+	<br>
+		<div class="hiddenAnchor" id="mobile"></div>
+			<h2>Mobile</h2>
+				<h2>h3</h2>
+					<div class="mrktplc-h3">Best New Productivity Apps</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: light;<br>font-size: 20px;<br>line-height: 25px;<br>color: #797979;</p>
+				<h2>h4</h2>
+					<div class="mrktplc-h4">Author: Mozilla</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: bold;<br>font-size: 15px;<br>line-height: 22px;<br>color: #797979;</p>
+				<h2>body</h2>
+					<div class="mrktplc-body">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Praesent vel curabitur.</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: light;<br>font-size: 15px;<br>line-height: 22px;<br>color: #797979;</p>
+				<h2>category</h2>
+					<div class="mrktplc-category">HEALTH & FITNESS</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: medium;<br>font-size: 10px;<br>line-height: 12px;<br>color: #797979;</p>
+				<h2>app title / mobile nav</h2>
+					<div class="mrktplc-title">Facebook</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: medium;<br>font-size: 12px;<br>line-height: 18px;<br>color: #797979;</p>
+				<h2>dev / author</h2>
+					<div class="mrktplc-author">Facebook, Inc.</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: regular;<br>font-size: 12px;<br>line-height: 18px;<br>color: #797979;</p>
+	<br>
+		<div class="hiddenAnchor" id="linksCode"></div>
+			<h2>Links, Lists, & Code</h2>
+				<h2>price</h2>
+					<div class="mrktplc-price">$1.99</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: regular;<br>font-size: 12px;<br>color: #4cb1ff;</p>
+				<h2>text link</h2>
+					<div class="mrktplc-link">Feedback</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: bold;<br>font-size: 15px;<br>color: #4cb1ff;</p>
+				<h2>list</h2>
+					<div class="mrktplc-list">
+						<p>This game has:</p>
+							<ul>
+								<li>Action!</li>
+								<li>Suspense!</li>
+								<li>Romance!</li>
+								<li>Everything!</li>
+							</ul>
+					</div>
+					<p>font-family: Fira Sans OT;<br>font-weight: light;<br>font-size: 15px;<br>line-height: 22px;<br>color: #797979;</p>
+				<h2>code</h2>
+					<div class="mrktplc-code">Here is a bunch of code!</div>
+					<p>font-family: Fira Mono OT;<br>font-weight: regular;<br>ffont-size: 12px;<br>fline-height: 16px;<br>color: #1a1a1a;</p>
+					<p class="longText">
+						Any code snippets on the devHub are displayed in <strong>Fira Mono OT</strong>.
+					</p>
+	<br>
+</div>
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}

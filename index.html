@@ -1,0 +1,30 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---
+<head>
+	  <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+</head>
+<div class="jumbotron">
+	<div class="container">
+		<div class="col-md-2">
+			<img src="img/rocket.png"/>
+		</div>
+		<div class="col-md-10">
+		<h1>Marketplace Design Guide</h1>
+		<p>Your one-stop-shop for all things visual design and Marketplace:<br>Consumer (Adaptive/Tarako/Android) and Developer (Devhub).<br>Want to contribute? Check out our <a href="https://github.com/pwalm/marketplace-style-guides/tree/gh-pages">Github page</a>!</p>
+		<br>
+		<h2>Latest update: August 25</h2>
+		<br>
+		<ul>
+			<li>Removed the light blue option from the <a href="http://http://pwalm.github.io/marketplace-style-guides/palette.html#actionPrimary">primary colour palette</a>.</li>
+	</div>
+		<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}
+	</div>
+</div>

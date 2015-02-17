@@ -1,0 +1,80 @@
+---
+layout: MarketplaceUXSpec
+multipage: false
+---
+
+<div class="container">
+	<div class="col-sm-3 col-md-3 col-lg-3">
+		<ul  class="secondaryMenu" data-spy="affix" data-offset-top="70" data-offset-bottom="200">
+			<li><a href="#buttonSizes">Button Sizes</a></li>
+			<li><a href="#buttonStates">Button States</a></li>
+			<li><a href="#extraButtons">Extra Buttons</a></li>
+			<li><a href="#dropdowns">Dropdowns</a></li>
+			<li><a href="#controls">Controls</a></li>
+			<li><a href="#sliders">Sliders</a></li>
+			<li><a href="#blockViewAll">View All</a></li>
+			<li><a href="#progressBars">Progress Bars</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-9 col-md-9 col-lg-8">
+		<h1>Buttons</h1>
+			<div class="hiddenAnchor" id="buttonSizes"></div>
+			<h2>Button Sizes</h2>
+				<a class="btn-tiny" href="#">Free</a>
+				<a class="btn-small" href="#">Submit</a>
+				<a class="btn-medium" href="#"><img src="img/pencil.png" alt="edit"><i class="edit">Edit</i></a>
+				<a class="btn-large" href="#">Learn more</a>
+			<br>
+			<p class="longText">
+				There are 4 types of buttons sizes: <strong>tiny</strong> (24px high), <strong>small</strong> (36px high), <strong>medium</strong> (48px high), and <strong>large</strong> (60px high). Each size has a specific use: <strong>tiny</strong> is used for the purchase button on mobile devices. <strong>small</strong> and <strong>medium</strong> are used for everything else on mobile/tablet/desktop. <strong>large</strong> is reserved for CTAs or marketing purposes.
+			</p>
+		<br>
+			<div class="hiddenAnchor" id="buttonStates"></div>
+			<h2>Button States</h2>
+			<img src="img/buttonStates.png"/><br/>
+		<br>
+			<p class="longText">
+				While buttons have an explicit height, they can vary in width. The ideal width of a button is 10px of padding to the left and right of the button's copy. Buttons have a 2px drop shadow. The shadow color is the dark secondary of the button's main color. Unless it is one of the buttons mentioned above, all controls are "action blue".
+			</p>
+		<br>
+			<div class="hiddenAnchor" id="extraButtons"></div>
+			<h2>Extra Buttons</h2>
+			<img src="img/extraButtonStyles.png"/><br/>
+		<br>
+			<p class="longText">
+				Some buttons use icons instead of or with text for simplicity/clarity. The same spacing rules mentioned above apply: 10px of padding. The segmented control is currently mobile only.
+			</p>
+		<br>
+			<div class="hiddenAnchor" id="dropdowns"></div>
+			<h2>Dropdowns</h2>
+			<img src="img/dropdowns.png"/><br/>
+		<br>
+			<div class="hiddenAnchor" id="controls"></div>
+			<h2>Controls</h2>
+			<img src="img/variousControls.png"/><br/>
+		<br>
+			<img src="img/paginationToggle.png"/><br/>
+		<br>
+			<div class="hiddenAnchor" id="sliders"></div>
+			<h2>Sliders</h2>
+			<img src="img/sliders.png"/><br/>
+		<br>
+			<div class="hiddenAnchor" id="blockViewAll"></div>
+			<h2>Collection Block View All</h2>
+			<img src="img/blockViewAll.png"/><br/>
+		<br>
+			<p class="longText">
+				This control appears at the bottom of editorial collection blocks. Tapping/clicking it takes you to a collection detail page.
+			</p>
+		<br>
+			<div class="hiddenAnchor" id="progressBars"></div>
+			<h2>Progress Bars</h2>
+			<img src="img/progressBars.png"/><br/>
+		<br>
+	</div>
+	<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html.
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}
